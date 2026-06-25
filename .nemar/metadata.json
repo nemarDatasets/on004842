@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004842",
-  "source": "openneuro",
-  "source_id": "ds004842",
+  "pipeline_stage": "enriched",
   "title": "TX15",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Gabriella Larkin": {},
     "James A. Davis": {},
@@ -16,21 +16,57 @@
     "Stephen Gordon": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004842.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004842",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004842",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "TX15 is a BIDS-formatted EEG dataset (BIDS version 1.8.0) with HED (Hierarchical Event Descriptors) version 8.1.0 annotations. The dataset includes EEG recordings and associated metadata in standardized formats (.set, .fdt, .tsv, .json). Released under the CC0 license, this dataset is made openly available to support neuroimaging research and reproducible science. Please expand the README.md file with detailed information about dataset contents, participant demographics, experimental paradigm, and data collection procedures before DOI minting.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "HED annotations"
+    },
+    {
+      "term": "open data"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "0173d8eea00d7bb188e5a7e696553165c767cdab3689268eda1d6f694a032a1c"
 }
