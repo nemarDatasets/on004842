@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "TX15",
+  "description": "TX15 is a BIDS-formatted EEG dataset (BIDS version 1.8.0) with HED (Hierarchical Event Descriptors) version 8.1.0 annotations. The dataset includes EEG recordings and associated metadata in standardized formats (.set, .fdt, .tsv, .json). This dataset is derived from OpenNeuro dataset ds004842 (v1.0.0) and has been processed and annotated with HED tags to support standardized neuroimaging research. Released under the CC0 license, this dataset is made openly available to support reproducible science and neuroimaging research.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,38 +17,6 @@
     "Stephen Gordon": {},
     "Kevin King": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004842.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004842",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004842",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "TX15 is a BIDS-formatted EEG dataset (BIDS version 1.8.0) with HED (Hierarchical Event Descriptors) version 8.1.0 annotations. The dataset includes EEG recordings and associated metadata in standardized formats (.set, .fdt, .tsv, .json). Released under the CC0 license, this dataset is made openly available to support neuroimaging research and reproducible science. Please expand the README.md file with detailed information about dataset contents, participant demographics, experimental paradigm, and data collection procedures before DOI minting.",
   "keywords": [
     {
       "term": "EEG"
@@ -68,5 +37,42 @@
       "term": "neuroimaging"
     }
   ],
-  "source_hash": "0173d8eea00d7bb188e5a7e696553165c767cdab3689268eda1d6f694a032a1c"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004842",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004842",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004842.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004842",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "5.6 GB (205 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "68500928c4969b98e83de2b5e8f73946947354d403286b8f03070065da00ed21"
 }
