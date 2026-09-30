@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "TX15",
-  "description": "TX15 is a BIDS-formatted EEG dataset (BIDS version 1.8.0) with HED (Hierarchical Event Descriptors) version 8.1.0 annotations. The dataset includes EEG recordings and associated metadata in standardized formats (.set, .fdt, .tsv, .json). This dataset is derived from OpenNeuro dataset ds004842 (v1.0.0) and has been processed and annotated with HED tags to support standardized neuroimaging research. Released under the CC0 license, this dataset is made openly available to support reproducible science and neuroimaging research.",
+  "description": "TX15 is an EEG dataset organized according to BIDS 1.8.0 with HED annotations (version 8.1.0). It is a NEMAR-hosted version of the OpenNeuro dataset ds004842 and is released under a CC0 license. The README provides minimal detail on the experimental paradigm or participants.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,29 +22,20 @@
       "term": "EEG"
     },
     {
-      "term": "electroencephalography"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "BIDS"
     },
     {
       "term": "HED annotations"
-    },
-    {
-      "term": "open data"
-    },
-    {
-      "term": "neuroimaging"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004842",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004842",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -57,6 +48,11 @@
       "identifier": "10.18112/openneuro.ds004842",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004842",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -64,7 +60,7 @@
     "eeg"
   ],
   "sizes": [
-    "5.6 GB (205 files)"
+    "5.20 GB (205 files)"
   ],
   "formats": [
     ".fdt",
